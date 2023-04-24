@@ -84,3 +84,9 @@ html{
 .popup.hide{
     display: none;
 }
+
+:hover#restart{
+    background-color: #120049;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
