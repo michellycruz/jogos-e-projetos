@@ -53,7 +53,7 @@ html{
 }
 
 .popup{
-    background: linear-gradient(135deg, #8052ec, #d161ff);
+    background: linear-gradient(135deg, #090053, #7c0176);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -86,6 +86,12 @@ html{
 }
 
 :hover#restart{
+    background-color: #120049;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+:hover#new-game{
     background-color: #120049;
     transition-duration: 0.8s;
     cursor: pointer;

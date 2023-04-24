@@ -100,7 +100,7 @@ btnRef.forEach((element) => {
             element.disabled = true;
         } else {
             xTurn = true;
-            //Display Y
+            //Display O
             element.innerText = "O";
             element.disabled = true;
         }
@@ -109,7 +109,7 @@ btnRef.forEach((element) => {
         if (count == 9) {
             drawFunction();
         }
-        //verificação de vitória por click
+        //verificação de vitória por
         winChecker();
     });
 });
