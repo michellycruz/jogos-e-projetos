@@ -60,7 +60,7 @@ const winFunction = (letter) => {
 //Função empate
 const drawFunction = () => {
     disableButtons();
-    msgRef.innerHTML = "&#x1F60E; <br> É um empate";
+    msgRef.innerHTML = "&#x1F91D; <br> É um empate";
 };
 
 //Novo jogo
