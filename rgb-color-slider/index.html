@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Slider</title>
+    <!--Link da fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <!--Link do estilo-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            R<input type="range" min="0" max="255" value="0" id="red" oninput="colors()">
+        </div>
+        <div class="wrapper">
+            G<input type="range" min="0" max="255" value="0" id="green" oninput="colors()">
+        </div>
+        <div class="wrapper">
+            B<input type="range" min="0" max="255" value="0" id="blue" oninput="colors()">
+        </div>
+        <span id="output">rgb(0, 0, 0)</span>
+
+        <script>
+            function colors(){
+                var red= document.getElementById("red").value;
+                var green= document.getElementById("green").value;
+                var blue= document.getElementById("blue").value;
+                document.body.style.backgroundColor= 'rgb(' + red + ',' + green + ',' + blue + ')';
+                document.getElementById("output").innerHTML = 'rgb(' + red + ',' + green + ',' + blue + ')';
+            }
+        </script>
+    </div>
+</body>
+</html>
