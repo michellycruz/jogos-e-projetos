@@ -1,0 +1,21 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: var(--cor3);
+}
+
+:root{
+    /*cores primárias*/
+    --cor0: hsl(179, 62%, 43%);
+    --cor2: hsl(71, 73%, 54%);
+    /*cores neutras*/
+    --cor3: hsl(204, 43%, 93%);
+    --cor4: hsl(218, 22%, 67%);
+}
+
+.container{
+    background-color: white;
+}
