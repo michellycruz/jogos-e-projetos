@@ -12,4 +12,7 @@ para praticar o desenvolvimento
   <li>
     <a href="https://michellycruz.github.io/jogos-e-projetos/price-grid/index.html">Desafio Price-Grid</a>
   </li>
+  <li>
+    <a href="https://michellycruz.github.io/jogos-e-projetos/sapinho/index.html">Sapinho em CSS</a>
+  </li>
 </ul>
