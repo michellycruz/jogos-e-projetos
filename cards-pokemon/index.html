@@ -12,6 +12,12 @@
         color: rgb(187, 185, 185);
     }
 
+
+    html, body {
+        height: 100vh;
+        width: 100vw;
+    }
+
     body{
         background: black url(imagens/gengar.jpeg) center center no-repeat fixed;
         background-size: cover;
@@ -22,18 +28,66 @@
         font-size: 3em;
     }
 
-    div.container{
-        border: white;
-        background-color: white;
-        width: 50%;
-        height: 50%;
+    section#pokemons img{
+        width: 100px;
+        margin: 10px;
+        border-radius: 50% 50%;
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.342);
+        box-sizing: border-box;
+    }
+
+    main {
+        position: relative;
+        height: 100vh;
+    }
+
+    section#quadro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        height: 500px;
+        width: 900px;
+        background-image: url(imagens/tela.png) no repeat;
+    }
+
+    iframe#tela {
+        position: relative;
+        left: 150px;
+        width: 600px;
+        height: 380px;
+    }
+
+    iframe{
+        border: 1px solid blue;
+    }
+
+    section#pokemons img:hover{
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.342);
+        transition: transform 0.2s;
+        transition: box-shadow 0.5s;
     }
 </style>
 <body>
     <div>
         <h1>Pokemons da Geração I</h1>
     </div>
-    <div class="container">
-    </div>
+    <main>
+        <section id="quadro">
+            <iframe src="telainicial.html" name="tela" id="tela">
+                seu navegador não é compatível com isso
+            </iframe>
+        </section>
+        <section id="pokemons">
+            <a href="charizard.html" target="tela"><img src="imagens/charizard.webp" alt="charizard"></a> <br>
+            <a href="#"><img src="imagens/gyarados.webp" alt="gyarados"></a> <br>
+            <a href="#"><img src="imagens/alakazam.webp" alt="alakazam"></a> <br>
+            <a href="#"><img src="imagens/mewtwo.webp" alt="mewtwo"></a><br>
+            <a href="#"><img src="imagens/venusaur.webp" alt="venusaur"></a>
+        </section>
+    </main>
+
 </body>
 </html>
