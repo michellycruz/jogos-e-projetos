@@ -1,26 +1,37 @@
 @charset "utf-8";
 
+/* cor roxa do fundo #120a17*/
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #00000059;
+    color: rgb(141, 141, 141);
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 16px;
+    
 }
 
 table{
     width: 100vw;
+    border-collapse: collapse;
 }
 
 td {
-    border: 1px solid white;
-
+    border: 1px solid black;
+    padding: 10px;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
 }
 
 th {
-    border: 1px solid white;
+    border: 1px solid black;
+    padding: 10px;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
 }

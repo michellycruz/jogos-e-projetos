@@ -16,6 +16,7 @@
     html, body {
         height: 100vh;
         width: 100vw;
+        overflow: hidden;
     }
 
     body{
@@ -25,7 +26,7 @@
 
     h1{
         text-align: center;
-        font-size: 3em;
+        font-size: 1.2em;
     }
 
     section#pokemons img{
@@ -56,11 +57,11 @@
         position: relative;
         left: 150px;
         width: 600px;
-        height: 380px;
+        height: 405px;
     }
 
     iframe{
-        border: 1px solid blue;
+        border: none;
     }
 
     section#pokemons img:hover{
@@ -69,6 +70,7 @@
         transition: transform 0.2s;
         transition: box-shadow 0.5s;
     }
+
 </style>
 <body>
     <div>
@@ -82,10 +84,10 @@
         </section>
         <section id="pokemons">
             <a href="charizard.html" target="tela"><img src="imagens/charizard.webp" alt="charizard"></a> <br>
-            <a href="#"><img src="imagens/gyarados.webp" alt="gyarados"></a> <br>
-            <a href="#"><img src="imagens/alakazam.webp" alt="alakazam"></a> <br>
-            <a href="#"><img src="imagens/mewtwo.webp" alt="mewtwo"></a><br>
-            <a href="#"><img src="imagens/venusaur.webp" alt="venusaur"></a>
+            <a href="gyarados.html" target="tela"><img src="imagens/gyarados.webp" alt="gyarados"></a> <br>
+            <a href="alakazam.html" target="tela"><img src="imagens/alakazam.webp" alt="alakazam"></a> <br>
+            <a href="mewtwo.html" target="tela"><img src="imagens/mewtwo.webp" alt="mewtwo"></a><br>
+            <a href="venusaur.html" target="tela"><img src="imagens/venusaur.webp" alt="venusaur"></a>
         </section>
     </main>
 
