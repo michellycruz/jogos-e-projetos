@@ -7,6 +7,11 @@ iframe#tela {
     height: 405px;
 }
 
+html, body{
+    min-width: 1024px;
+    min-height: 768px;
+}
+
 section#quadro {
     position: absolute;
     top: 50%;

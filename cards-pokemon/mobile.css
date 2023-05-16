@@ -2,8 +2,8 @@
 
 iframe#tela{
     padding-top: 50px;
-    min-width: 420px;
-    min-height: 620px;
+    min-width: 375px;
+    min-height: 600px;
 }
 
 section#quadro {
@@ -26,7 +26,7 @@ section{
 }
 
 body{
-    background: black url(imagens/gengar-mobile.jpeg) center center no-repeat fixed;
+    background: black url(imagens/gengar-mobile.jpeg) center right no-repeat fixed;
     background-size: cover;
     border: 10px;
 }
@@ -37,8 +37,9 @@ section#pokemons{
 }
 
 section#pokemons img{
+    position: relative;
     max-width: 50px;
-    margin: 10px;
+    margin: auto;
     border-radius: 50% 50%;
     box-shadow: 1px 1px 20px #3c214d9f;
     box-sizing: border-box;
