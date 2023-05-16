@@ -26,7 +26,7 @@ section{
 }
 
 body{
-    background: black url(imagens/gengar-mobile.jpeg) center right no-repeat fixed;
+    background: black url(imagens/gengar-mobile.jpeg) center center no-repeat fixed;
     background-size: cover;
     border: 10px;
 }
