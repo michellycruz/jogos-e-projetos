@@ -1,16 +1,19 @@
 @charset "utf-8";
 
 iframe#tela{
-    width: 300px;
-    height: 700px;
-    padding-right: 350px;
+    width: 450px;
+    height: 500px;
 }
 
+section#quadro {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-section#quadro{
-  margin-top: 100px;
-  margin-left: 100px;
-  padding-left: 10px;
+    background-image: url(imagens/tela.png) no repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 html, body{

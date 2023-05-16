@@ -7,5 +7,14 @@ iframe#tela {
     height: 405px;
 }
 
+section#quadro {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 
+    background-image: url(imagens/tela.png) no repeat;
+    margin: 0px;
+    padding: 0px;
+}
 

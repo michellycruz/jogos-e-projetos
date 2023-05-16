@@ -23,6 +23,8 @@ table{
 td {
     border: 1px solid black;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-bottom: white;
     border-left: white;
     border-right: white;
@@ -31,6 +33,8 @@ td {
 th {
     border: 1px solid black;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-bottom: white;
     border-left: white;
     border-right: white;
