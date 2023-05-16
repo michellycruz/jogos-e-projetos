@@ -26,9 +26,12 @@ section{
 }
 
 body{
-    background: black url(imagens/gengar-mobile.jpeg) center center no-repeat fixed;
-    background-size: cover;
+    background: black url(imagens/gengar-mobile.jpeg) bottom right no-repeat fixed;
     border: 10px;
+    min-width: 300px;
+    min-height: 550px;
+    max-width: 1020px;
+    max-height: 765px;
 }
 
 section#pokemons{

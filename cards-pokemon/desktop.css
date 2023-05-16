@@ -12,6 +12,12 @@ html, body{
     min-height: 768px;
 }
 
+body{
+    background: black url(imagens/gengar.jpeg) center center no-repeat fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
 section#quadro {
     position: absolute;
     top: 50%;
