@@ -2,13 +2,13 @@
 
 iframe#tela{
     padding-top: 50px;
-    min-width: 320px;
+    min-width: 420px;
     min-height: 620px;
 }
 
 section#quadro {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 49%;
     transform: translate(-50%, -50%);
     background-image: url(imagens/tela.png) no repeat;
