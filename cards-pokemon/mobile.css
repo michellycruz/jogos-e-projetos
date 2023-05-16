@@ -12,7 +12,7 @@ section#quadro {
     left: 49%;
     transform: translate(-50%, -50%);
     background-image: url(imagens/tela.png) no repeat;
-    margin: 0px;
+    margin: 10px;
     padding: 30px;
 }
 

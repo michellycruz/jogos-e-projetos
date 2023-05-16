@@ -7,12 +7,13 @@
     padding: 0px;
 }
 
-
+html{
+    font-size: 14px;
+}
 body{
     background-color: #000000bd;
     color: rgb(180, 180, 180);
     font-family: monospace;
-    font-size: 16px;
     overflow-y: hidden;
 }
 
