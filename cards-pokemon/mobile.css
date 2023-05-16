@@ -7,8 +7,8 @@ iframe#tela{
 
 section#quadro {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
 
     background-image: url(imagens/tela.png) no repeat;
@@ -29,5 +29,13 @@ body{
 
 section#pokemons{
     position: relative;
+}
+
+section#pokemons img{
+    width: 66px;
+    margin: 10px;
+    border-radius: 50% 50%;
+    box-shadow: 1px 1px 20px #3c214d9f;
+    box-sizing: border-box;
 }
     
