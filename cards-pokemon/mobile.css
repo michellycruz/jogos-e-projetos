@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+iframe#tela{
+    width: 300px;
+    height: 700px;
+    padding-right: 350px;
+}
+
+
+section#quadro{
+  margin-top: 100px;
+  margin-left: 100px;
+  padding-left: 10px;
+}
+
+html, body{
+    height: auto;
+    width: auto;
+}
+
+body{
+    overflow-y: auto;
+    background: black url(imagens/gengar.jpeg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#pokemons{
+    position: relative;
+}
+    
