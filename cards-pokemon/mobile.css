@@ -33,7 +33,7 @@ section#pokemons{
 }
 
 section#pokemons img{
-    max-width: 60px;
+    max-width: 50px;
     margin: 10px;
     border-radius: 50% 50%;
     box-shadow: 1px 1px 20px #3c214d9f;
