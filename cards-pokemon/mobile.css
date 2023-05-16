@@ -27,6 +27,7 @@ section{
 
 body{
     background: black url(imagens/gengar-mobile.jpeg) bottom right no-repeat fixed;
+    background-size: cover;
     border: 10px;
     min-width: 300px;
     min-height: 550px;
