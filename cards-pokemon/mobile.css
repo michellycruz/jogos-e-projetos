@@ -3,30 +3,32 @@
 iframe#tela{
     padding-top: 50px;
     min-width: 320px;
-    min-height: 520px;
-    overflow-y: none;
+    min-height: 620px;
 }
 
 section#quadro {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 49%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
-
     background-image: url(imagens/tela.png) no repeat;
     margin: 0px;
-    padding-bottom: 15px;
+    padding: 30px;
 }
 
-html, body{
-    min-width: 320px;
-    min-height: 568px;
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    display: flexbox;
 }
 
 body{
     background: black url(imagens/gengar.jpeg) center center no-repeat fixed;
     background-size: cover;
+    border: 10px;
 }
 
 section#pokemons{
@@ -40,4 +42,10 @@ section#pokemons img{
     border-radius: 50% 50%;
     box-shadow: 1px 1px 20px #3c214d9f;
     box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    padding-bottom: 20px;
 }
