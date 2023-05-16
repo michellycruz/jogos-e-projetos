@@ -18,3 +18,15 @@ section#quadro {
     padding: 0px;
 }
 
+section#pokemons {
+    text-align: center;
+}
+
+section#pokemons img{
+    max-width: 100px;
+    margin: 10px;
+    border-radius: 50% 50%;
+    box-shadow: 1px 1px 20px #3c214d9f;
+    box-sizing: border-box;
+}
+
