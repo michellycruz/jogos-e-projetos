@@ -20,7 +20,7 @@ body{
 
 section#quadro {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 40%;
     transform: translate(-50%, -50%);
     background-image: url(imagens/tela.png) no repeat;
