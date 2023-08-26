@@ -2,79 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
+  <div class="main-content">
 
-  Daily
-  Weekly
-  Monthly
+    <div class="first">
+      <div class="informations">
+        <p>Report for</p>
+        <h2>Jeremy Robson</h2>
+      </div>
+      <div class="time-days">
+          <p>Daily</p>
+          <p>Weekly</p>
+          <p>Monthly</p>
+      </div>
+    </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+    <div class="activity">
+      <div class="activity-informations">
+        <h4>Work</h4>
+        <div id="work-daily">
+          <h3>5hrs</h3> <!-- daily -->
+          <p>Last Day - 7hrs</p> <!-- daily -->
+        </div>
+        <div id="work-weekly">
+          <h3>32hrs</h3> <!-- weekly -->
+          <p>Last Week - 36hrs</p> <!-- weekly -->
+        </div>
+        <div id="work-monthly">
+          <h3>103hrs</h3> <!-- monthly -->
+          <p>Last month - 128hrs</p> <!-- monthly -->
+        </div>
+      </div>
+    </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+    <div class="activity">
+      <div class="activity-informations">
+        <h4>Play</h4>
+        <div id="play-daily">
+          <h3>1hr</h3> <!-- daily -->
+          <p>Last Day - 2hrs</p> <!-- daily -->
+        </div>
+        <div id="play-weekly">
+          <h3>10hrs</h3> <!-- weekly -->
+          <p>Last Week - 8hrs</p> <!-- weekly -->
+        </div>
+        <div id="play-monthly">
+          <h3>23hrs</h3> <!-- monthly -->
+          <p>Last month - 29hrs</p> <!-- monthly -->
+        </div>
+      </div>
+    </div>
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+    <div class="activity">
+      <div class="activity-informations">
+        <h4>Study</h4>
+        <div id="study-daily">
+          <h3>0hrs</h3> <!-- daily -->
+          <p>Last Day - 1hr</p> <!-- daily -->
+        </div>
+        <div id="study-weekly">
+          <h3>4hrs</h3> <!-- weekly -->
+          <p>Last Week - 7hrs</p> <!-- weekly -->
+        </div>
+        <div id="study-monthly">
+          <h3>13hrs</h3> <!-- monthly -->
+          <p>Last month - 19hrs</p> <!-- monthly -->
+        </div>
+      </div>
+    </div>
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+    <div class="activity">
+      <div class="activity-informations">
+        <h4>Exercise</h4>
+        <div id="exercise-daily">
+          <h3>1hr</h3> <!-- daily -->
+          <p>Last Day - 1hr</p> <!-- daily -->
+        </div>
+        <div id="exercise-weekly">
+          <h3>4hrs</h3> <!-- weekly -->
+          <p>Last Week - 5hrs</p> <!-- weekly -->
+        </div>
+        <div id="exercise-monthly">
+          <h3>11hrs</h3> <!-- monthly -->
+          <p>Last month - 18hrs</p> <!-- monthly -->
+        </div>
+      </div>
+    </div>
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+    <div class="activity">
+      <div class="activity-informations">
+        <h4>Social</h4>
+        <div id="social-daily">
+          <h3>1hr</h3> <!-- daily -->
+          <p>Last day - 3hrs</p> <!-- daily -->
+        </div>
+        <div id="social-weekly">
+          <h3>5hrs</h3> <!-- weekly -->
+          <p>Last Week - 10hrs</p> <!-- weekly -->
+        </div>
+        <div id="social-monthly">
+          <h3>21hrs</h3> <!-- monthly -->
+          <p>Last Month - 23hrs</p> <!-- monthly -->
+        </div>
+      </div>
+    </div>
 
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="activity">
+      <div class="activity-informations">
+        <h4>Self Care</h4>
+        <div id="selfcare-daily">
+          <h3>0hrs</h3> <!-- daily -->
+          <p>Last Day - 1hr</p> <!-- daily -->
+        </div>
+        <div id="selfcare-weekly">
+          <h3>2hrs</h3> <!-- weekly -->
+          <p>Last Week - 2hrs</p> <!-- weekly -->
+        </div>
+        <div id="selfcare-monthly">
+          <h3>7hrs</h3> <!-- monthly -->
+          <p>Last Month - 11hrs</p> <!-- monthly -->
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
