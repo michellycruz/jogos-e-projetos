@@ -22,6 +22,7 @@ body{
 .iconeR{
     max-width: 16px;
     padding: 15px;
+    cursor: pointer;
 }
 
 .detalhe{
@@ -41,4 +42,13 @@ body{
 .imgQ{
     max-width: 250px;
     padding: 16px;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    transition: 0.7s;
+    color: #F5900D;
 }
