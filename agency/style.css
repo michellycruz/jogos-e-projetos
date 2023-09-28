@@ -6,8 +6,39 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
 }
 
 body{
     background-color: black;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.iconeR{
+    max-width: 16px;
+    padding: 15px;
+}
+
+.detalhe{
+    max-width: 50px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.qualitativos{
+    max-width: 100vw;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgQ{
+    max-width: 250px;
+    padding: 16px;
 }
