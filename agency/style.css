@@ -20,15 +20,14 @@ body{
 }
 
 .iconeR{
-    max-width: 16px;
-    padding: 15px;
+    max-width: 80px;
+    margin: 6px 15px 3px -22px;
     cursor: pointer;
 }
 
 .detalhe{
     max-width: 50px;
-    padding: 50px;
-    padding-top: 20px;
+    padding: 0px 0px 0px 0px;
 }
 
 .qualitativos{

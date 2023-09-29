@@ -43,15 +43,18 @@ nav li{
 
 .navBar{
     grid-area: navBar;
+    background-color: aquamarine;
 }
 
 .barraLateral{
     grid-area: barraLateral;
-    max-width: 100px;
+    max-width: 50px;
+    background-color: tomato;
 }
 
 .caixaTitulo{
     grid-area: caixaTitulo;
+    background-color: slateblue;
 }
 
 .discover{

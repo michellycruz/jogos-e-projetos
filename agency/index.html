@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development & Design Agency</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body onresize="mobile()">
     <div class="container1">
         <div class="navBar">
-            <nav class="itens">
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            <nav class="botoes">
                 <ul>
                     <li>• Home</li>
                     <li>• About</li>
@@ -49,5 +51,11 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt omnis deleniti harum nam, quis illo odio voluptates alias voluptate blanditiis.</p>
         <button class="discover">Discover More</button>
     </div>
+    <script>
+        let burguer = document.getElementById('burguer');
+        let botoes = document.getElementById('botoes');
+
+        burguer
+    </script>
 </body>
 </html>
