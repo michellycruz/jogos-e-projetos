@@ -43,11 +43,13 @@ body{
     padding: 16px;
 }
 
-li{
+.btn{
     cursor: pointer;
+    background-color: transparent;
+    border: transparent;
 }
 
-li:hover{
+.btn:hover{
     transition: 0.7s;
     color: #F5900D;
 }

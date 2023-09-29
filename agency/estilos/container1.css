@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-nav li{
+.btn{
     display: inline-block;
     margin: 0 0 0 50px;
     color: white;
