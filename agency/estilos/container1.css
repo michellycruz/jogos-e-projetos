@@ -9,7 +9,6 @@
     max-width: 100vw;
     height: 80px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -20,14 +19,23 @@
     color: white;
 }
 
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+
+
 .caixaTitulo{
-    max-width: 650px;
+    width: 100vw;
     height: auto;
     padding-top: 80px;
 }
 
 .titulo1{
-    font-size: 95px;
+    font-size: 50px;
     padding: 10px;
 }
 

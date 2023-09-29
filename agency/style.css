@@ -21,13 +21,13 @@ body{
 
 .iconeR{
     max-width: 80px;
-    margin: 6px 15px 3px -22px;
+    margin: 20px 15px 3px -22px;
     cursor: pointer;
 }
 
 .detalhe{
     max-width: 50px;
-    padding: 0px 0px 0px 0px;
+    padding: 25px 0px 40px 0px;
 }
 
 .qualitativos{
@@ -43,13 +43,13 @@ body{
     padding: 16px;
 }
 
-.btn{
+.btnN{
     cursor: pointer;
     background-color: transparent;
     border: transparent;
 }
 
-.btn:hover{
+.btnN:hover{
     transition: 0.7s;
     color: #F5900D;
 }

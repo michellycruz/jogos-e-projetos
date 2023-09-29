@@ -12,12 +12,12 @@
         <div class="navBar">
             <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
             <nav id="botoes">
-                <button class="btn">• Home</button>
-                <button class="btn">• About</button>
-                <button class="btn">• Services</button>
-                <button class="btn">• Blog</button>
-                <button class="btn">• Careers</button>
-                <button class="btn">• Contact</button>
+                <button class="btnN">• Home</button>
+                <button class="btnN">• About</button>
+                <button class="btnN">• Services</button>
+                <button class="btnN">• Blog</button>
+                <button class="btnN">• Careers</button>
+                <button class="btnN">• Contact</button>
             </nav>
         </div>
         <div class="barraLateral">
@@ -53,7 +53,6 @@
         let burguer = document.getElementById('burguer');
         let botoes = document.getElementById('botoes');
 
-        burguer.style.display = 'none'
         function mobile(){
             if(window.innerWidth >= 869){
                 botoes.style.display = 'block';
