@@ -20,7 +20,7 @@ body{
 }
 
 .iconeR{
-    max-width: 80px;
+    max-width: 15px;
     margin: 20px 15px 3px -22px;
     cursor: pointer;
 }
@@ -32,11 +32,11 @@ body{
 
 .qualitativos{
     max-width: 100vw;
-    height: 500px;
+    height: auto;
     padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .imgQ{
     max-width: 350px;
@@ -44,6 +44,7 @@ body{
 }
 
 .btnN{
+    padding: 10px;
     cursor: pointer;
     background-color: transparent;
     border: transparent;
@@ -54,6 +55,19 @@ body{
     color: #F5900D;
 }
 
+.titulosColoridos{
+    padding: 20px;
+}
+.about{
+    padding: 20px;
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .cadeira{
-    max-width: 400px;
+    max-width: 200px;
+    height: auto;
+    padding: 15px;
 }
