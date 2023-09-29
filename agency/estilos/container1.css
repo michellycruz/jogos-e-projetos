@@ -4,28 +4,13 @@
     max-width: 100vw;
     height: auto;
 }
-.navBar{
-    background-color: transparent;
-    max-width: 100vw;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .btn{
     display: inline-block;
     margin: 0 0 0 50px;
     color: white;
 }
-
-
-#botoes{
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-}
-
 
 
 .caixaTitulo{
@@ -50,9 +35,23 @@
 }
 
 .navBar{
+    max-width: 100vw;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: navBar;
     background-color: aquamarine;
 }
+
+#botoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vw;
+    height: 200px;
+}
+
 
 .barraLateral{
     grid-area: barraLateral;

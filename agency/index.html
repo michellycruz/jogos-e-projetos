@@ -11,14 +11,16 @@
     <div class="container1">
         <div class="navBar">
             <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-            <nav id="botoes">
-                <button class="btnN">• Home</button>
-                <button class="btnN">• About</button>
-                <button class="btnN">• Services</button>
-                <button class="btnN">• Blog</button>
-                <button class="btnN">• Careers</button>
-                <button class="btnN">• Contact</button>
-            </nav>
+            <div>
+                <nav id="botoes">
+                    <div><button class="btnN">• Home</button></div>
+                    <div><button class="btnN">• About</button></div>
+                    <div><button class="btnN">• Services</button></div>
+                    <div><button class="btnN">• Blog</button></div>
+                    <div><button class="btnN">• Careers</button></div>
+                    <div><button class="btnN">• Contact</button></div>
+                </nav>
+            </div>
         </div>
         <div class="barraLateral">
             <img class="detalhe" src="imagens/detalhe.png" alt="bolinhas com uma paleta de cores">
@@ -58,7 +60,7 @@
                 botoes.style.display = 'block';
                 burguer.style.display = 'none';
             } else {
-                botoes.stle.display = 'none';
+                botoes.style.display = 'none';
                 burguer.style.display = 'block';
             }
         }
