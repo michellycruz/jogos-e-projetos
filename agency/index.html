@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development & Design Agency</title>
-    <link rel="stylesheet" href="style.css">
+    <!--ICONES-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body onresize="mobile()">
     <div class="container1">
         <div class="navBar">
-            <div><span id="burguer" class="material-icons" onclick="clickMenu()">menu</span></div>
             <div>
-                <nav id="botoes">
-                    <div><button class="btnN">• Home</button></div>
-                    <div><button class="btnN">• About</button></div>
-                    <div><button class="btnN">• Services</button></div>
-                    <div><button class="btnN">• Blog</button></div>
-                    <div><button class="btnN">• Careers</button></div>
-                    <div><button class="btnN">• Contact</button></div>
-                </nav>
+                <input class="form-control mr-sm" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <div>
+                <div><span id="burguer" class="material-icons" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" >menu</span></div>
+                <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div><button class="btnN">• Home</button></div>
+                        <div><button class="btnN">• About</button></div>
+                        <div><button class="btnN">• Services</button></div>
+                        <div><button class="btnN">• Blog</button></div>
+                        <div><button class="btnN">• Careers</button></div>
+                        <div><button class="btnN">• Contact</button></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="barraLateral">
@@ -55,29 +68,10 @@
         </div>
         <button class="discover">Discover More</button>
     </div>
+    <!--SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--SCRIPT-->
     <script>
-        let burguer = document.getElementById('burguer');
-        let botoes = document.getElementById('botoes');
-
-        botoes.style.display = 'none';
-
-        function mobile(){
-            if(window.innerWidth >= 869){
-                botoes.style.display = 'block';
-                burguer.style.display = 'none';
-            } else {
-                botoes.style.display = 'none';
-                burguer.style.display = 'block';
-            }
-        }
-
-        function clickMenu(){
-            if(botoes.style.display == 'block'){
-                botoes.style.display = 'none';
-            } else {
-                botoes.style.display = 'block';
-            }
-        }
     </script>
 </body>
 </html>
