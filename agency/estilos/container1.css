@@ -41,6 +41,7 @@
 }
 
 #botoes{
+    background-color: transparent;
     position: absolute;
     display: flex;
     align-items: center;
