@@ -21,6 +21,7 @@ body{
 
 .iconeR{
     max-width: 15px;
+    height: auto;
     margin: 20px 15px 3px -22px;
     cursor: pointer;
 }
