@@ -57,6 +57,7 @@
 
 .caixaTitulo{
     grid-area: caixaTitulo;
+    padding-bottom: 10px;
 }
 
 .discover{
