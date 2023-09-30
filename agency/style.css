@@ -128,3 +128,19 @@ body{
     max-width: 90px;
     margin: 20px;
 }
+
+.depoimento{
+    background-image: url(imagens/backgroundJenni.png);
+    max-width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.imgRaika{
+    max-width: 200px;
+    margin: 30px;
+}
