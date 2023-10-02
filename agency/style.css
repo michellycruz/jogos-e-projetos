@@ -17,14 +17,16 @@ body{
 .redesSociais{
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 .iconeR{
     max-width: 15px;
     height: auto;
-    margin: 20px 15px 3px -22px;
+    margin: 10px;
     cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .detalhe{
@@ -147,4 +149,22 @@ body{
 }
 
 
-.
+.footer{
+    max-width: 100vw;
+    height: auto;
+    padding: 20px;
+}
+
+.imgFooter{
+    max-width: 100px;
+}
+
+.footerCaixa1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redesSociaisFooter{
+
+}
