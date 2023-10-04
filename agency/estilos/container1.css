@@ -40,6 +40,10 @@
     grid-area: navBar;
 }
 
+#burguer{
+    cursor: pointer;
+}
+
 #botoes{
     background-color: transparent;
     position: absolute;
