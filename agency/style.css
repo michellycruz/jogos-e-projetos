@@ -143,6 +143,10 @@ body{
     text-align: justify;
 }
 
+.depoimentoP{
+    max-width: 600px;
+}
+
 .imgRaika{
     max-width: 200px;
     margin: 30px;
