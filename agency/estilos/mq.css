@@ -3,6 +3,18 @@
 
 @media (min-width:870px) {
     .depoimento{
+        max-width: 100vw;
         flex-direction: row;
+    }
+    .qualitativos{
+        max-width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgQ{
+        max-width: 250px;
     }
 }
