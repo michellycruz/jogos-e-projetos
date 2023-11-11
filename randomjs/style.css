@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    height: 250px;
+    max-width: 200px;
+}
+
+.container2{
+    margin: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.resposta{
+    margin-top: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos incriveis e divertidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>ihu diversão</h3>
+    <div class="container">
+        <div class="container2" id="divCalculadoraDeAltura">
+            <label for="altura">Informe a sua altura:</label>
+            <input type="text" id="altura">
+            <button type="button" onclick="calculadorAltura()">Calcular</button>
+            <div class="resposta rAltura">
+            </div>
+        </div>
+        <br>
+        <div class="container2" id="divAdivinhadorDeNumero ">
+            <label for="adivinhador">Em qual número você está pensando?</label>
+            <input type="text" id="adivinhador">
+            <button type="submit" onclick="adivinharNumero()">Calcular</button>
+            <div class="resposta rAdivinhador">
+            </div>
+        </div>
+    </div>
+    <script>
+        function calculadorAltura(){
+            let altura = document.getElementById("altura").value
+            document.querySelector(".rAltura").innerText = "Sua altura é: " + altura + "cm";
+        }
+
+        function adivinharNumero(){
+            var numero = document.getElementById("adivinhador").value;
+            document.querySelector(".rAdivinhador").innerText = "Você está pensando no número " + numero;
+        }
+
+    </script>
+</body>
+</html>
