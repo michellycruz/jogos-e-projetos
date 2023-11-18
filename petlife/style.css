@@ -41,31 +41,43 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#inicio{
+#inicio, #clinica{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
+
+    .imgsPrincipais{
+        max-width: 500px;
+    }
 }
 
-#inicio > div{
+#inicio > div, #clinica > div{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
+#farmacia, #duvidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .imgsPrincipais{
+        max-width: 600px;
+    }
+}
+
 .divTexto{
     text-align: justify;
-    display: block;
-}
-
-.texto1{
-    min-width: 400px;
-}
-
-.imgsPrincipais{
     max-width: 500px;
+    flex-direction: column;
+    justify-content: center;
 }
+

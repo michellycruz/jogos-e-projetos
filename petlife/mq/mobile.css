@@ -1,18 +1,25 @@
 @charset "UTF-8";
 
 @media (max-width: 1050px) {
-    #inicio{
+    #inicio, #clinica{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        .imgsPrincipais{
+            max-width: 300px;
+        }
     }
 
-    .imgsPrincipais{
-        max-width: 300px;
-    }
+    #farmacia, #duvidas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-    .texto1{
-        width: 300px;
+        .imgsPrincipais{
+            max-width: 500px;
+        }
     }
 }
