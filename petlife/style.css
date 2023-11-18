@@ -3,11 +3,13 @@
 
 :root{
     --laranja: #FF9A6C;
+    --escuro: #263138;
 }
 
 body{
     padding: 0px;
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
@@ -22,5 +24,48 @@ body{
 
 .nav{
     display: flex;
-    gap: 15px;
+    gap: 55px;
+}
+
+.nav > a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+.nav > a:hover{
+    transition: 0.5s;
+    color: var(--escuro);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#inicio{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+#inicio > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divTexto{
+    text-align: justify;
+    display: block;
+}
+
+.texto1{
+    min-width: 400px;
+}
+
+.imgsPrincipais{
+    max-width: 500px;
 }

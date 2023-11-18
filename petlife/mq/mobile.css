@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media (max-width: 1050px) {
+    #inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgsPrincipais{
+        max-width: 300px;
+    }
+
+    .texto1{
+        width: 300px;
+    }
+}
