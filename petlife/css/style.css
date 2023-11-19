@@ -2,17 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,700&display=swap');
 
 
-
 :root{
     --laranja: #FF9A6C;
     --escuro: #263138;
 }
 
-body{
-    overflow-x: hidden;
+*{
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 main{
@@ -23,9 +26,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    height: 80px;
     background-color: var(--laranja);
-    padding: 18px;
+    padding: 20px;
 }
 
 
