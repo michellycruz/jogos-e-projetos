@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 1030px) {
-    #inicio, #clinica{
+    #inicio, #clinica, #farmacia, #duvidas{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -50,17 +50,6 @@
 
         .imgsPrincipais{
             max-width: 300px;
-        }
-    }
-
-    #farmacia, #duvidas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        .imgsPrincipais{
-            max-width: 500px;
         }
     }
 
