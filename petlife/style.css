@@ -73,13 +73,13 @@ main{
     justify-content: center;
 
     .imgsPrincipais{
-        max-width: 600px;
+        max-width: 700px;
     }
 }
 
 .divTexto{
     text-align: justify;
-    max-width: 500px;
+    max-width: 700px;
     flex-direction: column;
     justify-content: center;
 }

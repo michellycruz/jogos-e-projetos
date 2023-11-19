@@ -75,4 +75,11 @@
     .mobile-menu{
         display: block;
     }
+
+    .divTexto{
+        text-align: justify;
+        max-width: 400px;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
