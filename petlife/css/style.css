@@ -15,6 +15,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+main{
+    padding: 40px;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -51,8 +55,6 @@ main{
 #inicio, #clinica{
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    margin: 50px;
 
     .imgsPrincipais{
         max-width: 500px;
@@ -83,5 +85,6 @@ main{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 50px;
+    padding: 30px;
 }
 

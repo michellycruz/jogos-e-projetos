@@ -42,6 +42,11 @@
 }
 
 @media (max-width: 1030px) {
+    main{
+        padding: 0px;
+        padding-top: 50px;
+    }
+
     #inicio, #clinica, #farmacia, #duvidas{
         display: flex;
         flex-direction: column;
