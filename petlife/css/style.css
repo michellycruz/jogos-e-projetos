@@ -91,3 +91,10 @@ main{
     padding: 30px;
 }
 
+.divTexto > ul{
+    padding-top: 40px;
+}
+
+.divTexto > h2{
+    padding: 20px;
+}

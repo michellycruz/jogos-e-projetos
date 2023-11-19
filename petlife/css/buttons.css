@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.links{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.botao{
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    padding: 25px;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.botaoPrimario{
+    background-color: var(--laranja);
+}
+
+.botaoPrimario:hover{
+    transition: 0.5s;
+    background-color: var(--escuro);
+}
+
+.botaoSecundario{
+    background-color: var(--escuro);
+}
+
+.botaoSecundario:hover{
+    transition: 0.5s;
+    background-color: var(--laranja);
+}
