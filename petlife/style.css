@@ -22,18 +22,18 @@ body{
 }
 
 
-.nav{
+.nav-list{
     display: flex;
     gap: 55px;
 }
 
-.nav > a{
+.nav-list > a{
     text-decoration: none;
     font-weight: 800;
     color: white;
 }
 
-.nav > a:hover{
+.nav-list > a:hover{
     transition: 0.5s;
     color: var(--escuro);
 }
