@@ -18,6 +18,11 @@ body{
     overflow-x: hidden;
 }
 
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
 main{
     padding: 40px;
 }
