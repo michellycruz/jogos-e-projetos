@@ -10,7 +10,6 @@ body, html{
 body{
     background-image: url(../imagens/background/pngwing.com3.png);
     background-repeat: no-repeat;
-    background-size: ;
     background-attachment: fixed;
 }
 
@@ -26,11 +25,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-main{
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.859);
-}
 
 .header{
     position: relative;
@@ -64,6 +58,8 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.859);
 }
 
 #inicio, #clinica{
@@ -76,7 +72,7 @@ main{
 
 
 #inicio, #clinica, #farmacia, #duvidas{
-    background-color: rgba(231, 231, 231, 0.395);
+    background-color: rgba(231, 231, 231, 0.362);
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;

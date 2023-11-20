@@ -52,6 +52,8 @@
         padding-top: 50px;
     }
 
+
+
     #inicio, #clinica, #farmacia, #duvidas{
         display: flex;
         flex-direction: column;
