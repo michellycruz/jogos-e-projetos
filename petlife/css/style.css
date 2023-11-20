@@ -76,8 +76,10 @@ main{
 
 
 #inicio, #clinica, #farmacia, #duvidas{
+    background-color: rgba(215, 215, 215, 0.275);
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 #inicio > div, #clinica > div, #farmacia > div, #duvidas > div{
