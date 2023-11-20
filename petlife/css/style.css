@@ -76,7 +76,7 @@ main{
 
 
 #inicio, #clinica, #farmacia, #duvidas{
-    background-color: rgba(215, 215, 215, 0.275);
+    background-color: rgba(231, 231, 231, 0.395);
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -113,4 +113,9 @@ main{
 
 .divTexto > h2{
     padding-bottom: 20px;
+}
+
+
+footer{
+    background-color: var(--laranja);
 }
