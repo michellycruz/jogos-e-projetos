@@ -81,7 +81,7 @@ main{
     flex-direction: row;
 }
 
-.duvida h3{;
+.duvida h3{
     border: 2px solid var(--laranja);
     border-radius: 8px;
     cursor: pointer;
@@ -98,7 +98,8 @@ main{
     border-bottom: 2px solid var(--laranja);
     border-left: 2px solid var(--laranja);
     border-radius: 0 0 8px 8px;
-    padding: 10px;
+    padding: 20px;
+    margin-top: -8px;
 }
 
 .duvida{
