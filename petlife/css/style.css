@@ -98,12 +98,23 @@ main{
     border-bottom: 2px solid var(--laranja);
     border-left: 2px solid var(--laranja);
     border-radius: 0 0 8px 8px;
-    padding: 20px;
+    padding: 0px;
     margin-top: -8px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.duvida.ativa > p{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
 }
 
 .duvida{
     position: relative;
+    cursor: pointer;
 }
 
 #inicio, #clinica, #farmacia, #duvidas{
@@ -138,7 +149,7 @@ main{
     max-width: 700px;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 50px;
+
     padding: 30px;
 }
 
@@ -198,6 +209,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .divAssinatura a{

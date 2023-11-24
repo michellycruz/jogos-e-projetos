@@ -16,6 +16,7 @@
     transform: translateX(0);
 }
 
+/* X da navbar mobile */
 .mobile-menu.active .line1{
     transition: 0.5s;
     transform: rotate(-45deg) translate(-8px, 8px);
