@@ -85,6 +85,7 @@ main{
     border: 2px solid var(--laranja);
     border-radius: 8px;
     cursor: pointer;
+    text-align: left;
 }
 
 .duvida img{
