@@ -16,6 +16,7 @@ body{
 :root{
     --laranja: #FF9A6C;
     --escuro: #263138;
+    --laranjaClaro: #FFE5DA;
 }
 
 *{
@@ -62,7 +63,7 @@ main{
     background-color: rgba(255, 255, 255, 0.859);
 }
 
-#inicio, #clinica, #duvidas{
+#inicio, #clinica{
     background-image: url(../imagens/shape.svg);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -72,6 +73,11 @@ main{
     .imgsPrincipais{
         max-width: 500px;
     }
+}
+
+#duvidas{
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -121,5 +127,58 @@ main{
 
 
 footer{
-    background-color: var(--laranja);
+    height: 300px;
+    background-color: var(--laranjaClaro);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divFrase{
+    max-width: 400px;
+}
+
+.divFrase img{
+    padding-bottom: 10px;
+}
+
+.linksRapidos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;;
+}
+
+.linksRapidos a:hover{
+    transition: 0.3s;
+    color: var(--laranja);
+}
+
+.divEncontre{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.divEncontre a{
+    color: var(--laranja);
+    text-decoration: none;
+}
+
+.divAssinatura{
+    background-color: var(--escuro);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divAssinatura a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--laranja);
+}
+
+.divAssinatura a:hover{
+    transition: 0.5s;
+    color: var(--laranjaClaro);
 }
