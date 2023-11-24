@@ -94,7 +94,7 @@ main{
     right: 50px;
 }
 
-.duvida > p{
+.duvida > .paragrafo{
     border-right: 2px solid var(--laranja);
     border-bottom: 2px solid var(--laranja);
     border-left: 2px solid var(--laranja);
@@ -107,7 +107,7 @@ main{
     transition: .2s;
 }
 
-.duvida.ativa > p{
+.duvida.ativa > .paragrafo{
     height: fit-content;
     opacity: 1;
     padding: 24px;
