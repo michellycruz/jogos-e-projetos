@@ -96,4 +96,23 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .duvida > h3{
+        font-size: 13px;
+    }
+
+    .duvida > img {
+        top: 90px;
+        right: 50px;
+    }
+
+    footer{
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .linksRapidos{
+        display: none;
+    }
 }

@@ -76,10 +76,34 @@ main{
 }
 
 #duvidas{
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
 }
 
+.duvida h3{;
+    border: 2px solid var(--laranja);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.duvida img{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+
+.duvida > p{
+    border-right: 2px solid var(--laranja);
+    border-bottom: 2px solid var(--laranja);
+    border-left: 2px solid var(--laranja);
+    border-radius: 0 0 8px 8px;
+    padding: 10px;
+}
+
+.duvida{
+    position: relative;
+}
 
 #inicio, #clinica, #farmacia, #duvidas{
     background-color: rgba(231, 231, 231, 0.362);
@@ -125,6 +149,9 @@ main{
     padding-bottom: 20px;
 }
 
+.divTexto > h3{
+    padding: 20px;
+}
 
 footer{
     height: 300px;
