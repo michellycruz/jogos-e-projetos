@@ -13,7 +13,7 @@
     background-color: #333;
     border-radius: 5px;
     position: relative;
-    transition: all 600ms ease;
+    transition: all 400ms ease;
     transform-style: preserve-3d;
 }
 
@@ -38,6 +38,6 @@
     backface-visibility: hidden;
 }
 
-.card:hover{
+.reveal-card{
     transform: rotateY(180deg);
 }

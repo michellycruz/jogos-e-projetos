@@ -21,6 +21,11 @@ const createElement = (tag, className) =>{
 
 const createCard = (character) => {
 
+
+    const revealCard = ({target}) => {
+        target.parentNode.classList.add('reveal-card')
+    }
+
     const card = createElement('div', 'card');
     const front = createElement('div', 'face front');
     const back = createElement('div', 'face back');
@@ -30,11 +35,18 @@ const createCard = (character) => {
     card.appendChild(front);
     card.appendChild(back);
 
+    card.addEventListener('click', revealCard);
+
     return card;
 }
 
 const loadGame = () => {
-    characters.forEach((character) => {
+
+    const duplicateCaracters = [...characters, ...characters];
+
+    const shuffledArray = duplicateCaracters.sort(() => Math.random() - 0.5);
+
+    shuffledArray.forEach((character) => {
         const card = createCard(character)
         grid.appendChild(card);
     })
