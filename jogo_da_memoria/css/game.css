@@ -29,7 +29,6 @@
 }
 
 .front{
-    background-image: url(../images/beth.png);
     transform: rotateY(180deg);
     color: white;
 }
