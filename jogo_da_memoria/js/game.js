@@ -34,18 +34,20 @@ const checkCards = () => {
     }
 }
 
-const revealCard = ({target}) => {
+const revealCard = ({ target }) => {
 
     if(target.parentNode.className.includes('reveal-card')){
         return;
     }
 
     if(firstCard === ''){
-        target.parentNode.classList.add('reveal-card')
+        target.parentNode.classList.add('reveal-card');
         firstCard = target.parentNode;
     } else if (secondCard === ''){
-        target.parentNode.classList.add('reveal-card')
+        target.parentNode.classList.add('reveal-card');
         secondCard = target.parentNode;
+
+        checkCards();
     }
 }
 
