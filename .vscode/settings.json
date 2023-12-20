@@ -1,4 +1,7 @@
 {
     "editor.wordWrap": "on",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    }
 }
