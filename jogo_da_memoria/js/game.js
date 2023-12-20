@@ -1,4 +1,5 @@
 const grid = document.querySelector('.grid');
+const spanPlayer = document.querySelector('.player');
 
 const characters = [
     'beth',
@@ -23,7 +24,7 @@ let firstCard = '';
 let secondCard = '';
 
 const checkEndGame = () => {
-    const disabledCards = document.querySelector('.disabled-card');
+    const disabledCards = document.querySelectorAll('.disabled-card');
 
     if(disabledCards.length === 20){
         alert('Parabéns, você conseguiu!');
@@ -105,4 +106,8 @@ const loadGame = () => {
     })
 }
 
-loadGame()
+window.onload = () => {
+    spanPlayer.innerHTML = localStorage.getItem('player');
+
+    loadGame()
+}
