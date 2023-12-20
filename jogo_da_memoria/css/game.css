@@ -40,7 +40,7 @@ header{
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
-    background-color: white;
+    background-color: #ccc;
 }
 
 .face{
