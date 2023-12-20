@@ -15,7 +15,10 @@ para praticar o desenvolvimento
   <li>
     <a href="https://michellycruz.github.io/jogos-e-projetos/sapinho/index.html">Sapinho em CSS</a>
   </li>
-    <li>
+  <li>
     <a href="https://michellycruz.github.io/jogos-e-projetos/cards-pokemon/index.html">Pokemon</a>
+  </li>
+  <li>
+    <a href="https://michellycruz.github.io/jogos-e-projetos/jogo_da_memoria/index.html">Jogo da Memória</a>
   </li>
 </ul>
