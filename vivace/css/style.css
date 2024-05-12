@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.imgContainer2 {
+    position: absolute;
+    width: 690px;
+    height: 434px;
+    left: 676px;
+    top: 164px;
+
+    background: url(../img/image.png), #6D6D6D;
+    border-radius: 180px 0px 0px 0px;
+}
