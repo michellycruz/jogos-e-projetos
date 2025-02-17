@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SUS</h1>
+        <div class="container2">
+            <p>Selecione um sintoma</p>
+            <select name="sintoma" id="sintoma">
+                <option value="">Selecionar</option>
+                <option value="febre">Febre</option>
+                <option value="dor_cabeca">Dor de cabeça</option>
+                <option value="dor_garganta">Dor de garganta</option>
+                <option value="tosse">Tosse</option>
+                <option value="falta_ar">Falta de ar</option>
+                <option value="cansaco">Cansaço</option>
+                <option value="dores_musculares">Dores musculares</option>
+                <option value="nausea">Náusea</option>
+                <option value="vomito">Vômito</option>
+                <option value="diarreia">Diarreia</option>
+                <option value="calafrios">Calafrios</option>
+                <option value="perda_paladar">Perda de paladar</option>
+                <option value="perda_olfato">Perda de olfato</option>
+                <option value="nariz_entupido">Nariz entupido</option>
+                <option value="espirros">Espirros</option>
+                <option value="coceira_pele">Coceira na pele</option>
+                <option value="irritacao_olhos">Irritação nos olhos</option>
+            </select>
+        </div>
+        <button onclick="gerarDiagnostico()">Diagnóstico</button>
+        <h2 class="doenca"></h2>
+    </div>
+</body>
+</html>
